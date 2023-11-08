@@ -94,3 +94,18 @@ Read data values: [32569@1699449268.487493 (67), 32642@1699449268.487493 (67), 3
 Read data values: [32614@1699449268.487677 (68), 32513@1699449268.487677 (68), 32644@1699449268.487677 (68)]
 Read data values: [32524@1699449268.488246 (69), 32626@1699449268.488246 (69), 32551@1699449268.488246 (69)]
 ```
+
+---
+
+# 💻 Other Code References
+
+- Check documentation of [`Network` class`](https://github.com/MyTooliT/ICOc/blob/master/mytoolit/can/network.py) methods
+- Check [source code of `icon`](https://github.com/MyTooliT/ICOc/blob/master/mytoolit/cmdline/icon.py)
+
+---
+
+# 🛟 Support/Questions
+
+- [ICOc Documentation](https://mytoolit.github.io/ICOc/): `https://mytoolit.github.io/ICOc/`
+- [Issue Tracker of ICOc](https://github.com/MyTooliT/ICOc/issues): `https://github.com/MyTooliT/ICOc/issues`
+- Ask me now 🙂
