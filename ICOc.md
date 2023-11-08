@@ -65,7 +65,6 @@ Connected to sensor device “Test-STH”
 """Read some acceleration data of STH with device name Test-STH"""
 
 from asyncio import run
-from time import time
 
 from mytoolit.can import Network
 
