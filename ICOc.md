@@ -99,7 +99,8 @@ Read data values: [32524@1699449268.488246 (69), 32626@1699449268.488246 (69), 3
 
 # 💻 Other Code References
 
-- Check documentation of [`Network` class`](https://github.com/MyTooliT/ICOc/blob/master/mytoolit/can/network.py) methods
+- Unfortunately no (HTML) library documentation 😢 – Sorry
+- Check **docstrings of [`Network` class`](https://github.com/MyTooliT/ICOc/blob/master/mytoolit/can/network.py)** methods
 - Check [source code of `icon`](https://github.com/MyTooliT/ICOc/blob/master/mytoolit/cmdline/icon.py)
 
 ---
