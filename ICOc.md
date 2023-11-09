@@ -8,8 +8,8 @@
   - „Old Code“ (In folder `mytoolit.old`, only Windows)
   - „New Code“ (Everything else in `mytoolit`)
 - **Command Line Tools**
-  - `icoc`: UI for measurement (only Windows)
-  - `icon`: New but very basic tool
+  - [`icoc`](https://mytoolit.github.io/ICOc/#basic-usage): UI for measurement (only Windows)
+  - [`icon`](https://mytoolit.github.io/ICOc/#icon-cli-tool): New but very basic tool
 
 ---
 
