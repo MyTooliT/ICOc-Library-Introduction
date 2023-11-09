@@ -81,10 +81,13 @@ async def read_name(identifier):
                 if messages <= 0:
                     break
 
-
 if __name__ == "__main__":
     run(read_name(identifier="Test-STH"))
 ```
+
+---
+
+# 💻 Code Examples – Read Data Output
 
 ```
 Read data values: [32545@1699449268.487127 (65), 32663@1699449268.487127 (65), 32491@1699449268.487127 (65)]
@@ -93,8 +96,6 @@ Read data values: [32569@1699449268.487493 (67), 32642@1699449268.487493 (67), 3
 Read data values: [32614@1699449268.487677 (68), 32513@1699449268.487677 (68), 32644@1699449268.487677 (68)]
 Read data values: [32524@1699449268.488246 (69), 32626@1699449268.488246 (69), 32551@1699449268.488246 (69)]
 ```
-
----
 
 # 💻 Other Code References
 
