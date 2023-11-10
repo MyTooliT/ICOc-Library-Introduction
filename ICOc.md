@@ -5,11 +5,11 @@
 # 🍱 ICOc Parts
 
 - **Library** (folder `mytoolit`)
-  - „Old Code“ (In folder `mytoolit.old`, only Windows)
+  - „Old Code“ (In folder `mytoolit.old`, only Windows support)
   - „New Code“ (Everything else in `mytoolit`)
 - **Command Line Tools**
-  - [`icoc`](https://mytoolit.github.io/ICOc/#basic-usage): UI for measurement (only Windows)
-  - [`icon`](https://mytoolit.github.io/ICOc/#icon-cli-tool): New but very basic tool
+  - [`icoc`](https://mytoolit.github.io/ICOc/#basic-usage): UI for measurement (only Windows, uses “old” parts of library)
+  - [`icon`](https://mytoolit.github.io/ICOc/#icon-cli-tool): New but **very basic** tool
 
 ---
 
@@ -23,6 +23,7 @@ from mytoolit.old import …
 - Only works with **PEAK-System CAN** adapter
 - Only works on **Windows**
 - 🚫 Please do not use
+- Will (hopefully 😅) be removed in future
 
 ---
 
