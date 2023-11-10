@@ -1,15 +1,24 @@
 # ICOc (Library) Intro
 
+![bg opacity:.3](Pictures/ICOtronic-System.jpg)
+
 ---
 
 # 🍱 ICOc Parts
 
 - **Library** (folder `mytoolit`)
-  - „Old Code“ (In folder `mytoolit.old`, only Windows support)
-  - „New Code“ (Everything else in `mytoolit`)
+  - „Old Code“
+    - Folder `mytoolit.old`
+    - Only Windows support
+  - „New Code“
+    - Everything else in `mytoolit`
+    - Works on Linux & macOS too
 - **Command Line Tools**
-  - [`icoc`](https://mytoolit.github.io/ICOc/#basic-usage): UI for measurement (only Windows, uses “old” parts of library)
+  - [`icoc`](https://mytoolit.github.io/ICOc/#basic-usage): UI for measurement
+    - Uses “old” parts of library
   - [`icon`](https://mytoolit.github.io/ICOc/#icon-cli-tool): New but **very basic** tool
+
+![bg fit right:45%](Pictures/Measurement.png)
 
 ---
 
@@ -25,6 +34,8 @@ from mytoolit.old import …
 - 🚫 Please do not use
 - Will (hopefully 😅) be removed in future
 
+![bg fit right:45%](Pictures/CAN-Adapter.jpg)
+
 ---
 
 # 📚 Library – ✨ New
@@ -37,6 +48,8 @@ from mytoolit.measurement import …
 - Based on [`python-can`](https://pypi.org/project/python-can/)
 - Multi OS support (Linux, macOS, Windows)
 - Support for different CAN adapters (Untested)
+
+![bg right:35% 70%](Pictures/Python.png)
 
 ---
 
@@ -120,3 +133,9 @@ Read data values: [32524@1699449268.488246 (69), 32626@1699449268.488246 (69), 3
 - [ICOc Documentation](https://mytoolit.github.io/ICOc/): `https://mytoolit.github.io/ICOc/`
 - [Issue Tracker of ICOc](https://github.com/MyTooliT/ICOc/issues): `https://github.com/MyTooliT/ICOc/issues`
 - Ask me now 🙂
+
+---
+
+# ℹ️ Sources
+
+- [Python-Logo](https://commons.wikimedia.org/wiki/File:Python-logo-notext.svg)
