@@ -11,4 +11,4 @@ watch:
 
 .PHONY: build
 build:
-	marp --pdf $(SOURCE_FILE)
+	marp --pdf --allow-local-files $(SOURCE_FILE)
