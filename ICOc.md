@@ -15,7 +15,7 @@
 
 # 📚 Library – 🏚️ Old
 
-- Based on PCAN Python library
+- Based on [PCAN Python library](https://pypi.org/project/python-can/)
 - Only works with **PEAK-System CAN** adapter
 - Only works on **Windows**
 - 🚫 Please do not use
