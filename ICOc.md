@@ -4,7 +4,7 @@
 
 # 🍱 ICOc Parts
 
-- **Library**
+- **Library** (folder `mytoolit`)
   - „Old Code“ (In folder `mytoolit.old`, only Windows)
   - „New Code“ (Everything else in `mytoolit`)
 - **Command Line Tools**
@@ -15,6 +15,10 @@
 
 # 📚 Library – 🏚️ Old
 
+```py
+from mytoolit.old import …
+```
+
 - Based on [PCAN Python library](https://pypi.org/project/python-can/)
 - Only works with **PEAK-System CAN** adapter
 - Only works on **Windows**
@@ -24,8 +28,13 @@
 
 # 📚 Library – ✨ New
 
+```py
+from mytoolit.can.network import …
+from mytoolit.measurement import …
+```
+
 - Based on [`python-can`](https://pypi.org/project/python-can/)
-- Multi OS Support (Linux, macOS, Windows)
+- Multi OS support (Linux, macOS, Windows)
 - Support for different CAN adapters (Untested)
 
 ---
