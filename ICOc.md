@@ -32,9 +32,9 @@ from mytoolit.old import …
 - Only works with **PEAK-System CAN** adapter
 - Only works on **Windows**
 - 🚫 Please do not use
-- Will (hopefully 😅) be removed in future
+- 🗑️ Will (hopefully 😅) be removed in future
 
-![bg fit right:45%](Pictures/CAN-Adapter.jpg)
+![bg fit right:40%](Pictures/CAN-Adapter.jpg)
 
 ---
 
@@ -53,7 +53,7 @@ from mytoolit.measurement import …
 
 ---
 
-# 💻 Code Examples – Read STH Name
+# 💻 Read STH Name
 
 ```py
 """Read name of STH with device number 0"""
@@ -82,7 +82,7 @@ Connected to sensor device “Test-STH”
 
 ---
 
-# 💻 Code Examples – Read Data
+# 💻 Read Data
 
 ```py
 """Read some acceleration data of STH with device name Test-STH"""
@@ -110,21 +110,25 @@ if __name__ == "__main__":
 
 ---
 
-# 💻 Code Examples – Read Data Output
+# 💻 Read Data Output
 
 ```
-Read data values: [32545@1699449268.487127 (65), 32663@1699449268.487127 (65), 32491@1699449268.487127 (65)]
-Read data values: [32636@1699449268.487309 (66), 32540@1699449268.487309 (66), 32666@1699449268.487309 (66)]
-Read data values: [32569@1699449268.487493 (67), 32642@1699449268.487493 (67), 32547@1699449268.487493 (67)]
-Read data values: [32614@1699449268.487677 (68), 32513@1699449268.487677 (68), 32644@1699449268.487677 (68)]
-Read data values: [32524@1699449268.488246 (69), 32626@1699449268.488246 (69), 32551@1699449268.488246 (69)]
+Read data values: [32545@1699449268.487127 (65),
+                   32663@1699449268.487127 (65),
+                   32491@1699449268.487127 (65)]
+…
+Read data values: [32524@1699449268.488246 (69),
+                  32626@1699449268.488246 (69),
+                  32551@1699449268.488246 (69)]
 ```
 
 # 💻 Other Code References
 
-- Unfortunately no (HTML) library documentation 😢 – Sorry
-- Check **docstrings of [`Network` class`](https://github.com/MyTooliT/ICOc/blob/master/mytoolit/can/network.py)** methods
+- No (HTML) library documentation 😢 (Sorry)
+- Check **docstrings of [`Network` class`](https://github.com/MyTooliT/ICOc/blob/master/mytoolit/can/network.py)**
 - Check [source code of `icon`](https://github.com/MyTooliT/ICOc/blob/master/mytoolit/cmdline/icon.py)
+
+![bg right:40% fit](Pictures/Docstring.png)
 
 ---
 
@@ -132,6 +136,7 @@ Read data values: [32524@1699449268.488246 (69), 32626@1699449268.488246 (69), 3
 
 - [ICOc Documentation](https://mytoolit.github.io/ICOc/): `https://mytoolit.github.io/ICOc/`
 - [Issue Tracker of ICOc](https://github.com/MyTooliT/ICOc/issues): `https://github.com/MyTooliT/ICOc/issues`
+- [This Slide Deck](https://github.com/MyTooliT/ICOc-Library-Introduction): `https://github.com/MyTooliT/ICOc-Library-Introduction`
 - Ask me now 🙂
 
 ---
