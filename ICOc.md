@@ -91,7 +91,7 @@ from asyncio import run
 
 from mytoolit.can import Network
 
-async def read_name(identifier):
+async def read_streaming_data(identifier):
     async with Network() as network:
         await network.connect_sensor_device(identifier)
 
@@ -105,7 +105,7 @@ async def read_name(identifier):
                     break
 
 if __name__ == "__main__":
-    run(read_name(identifier="Test-STH"))
+    run(read_streaming_data(identifier="Test-STH"))
 ```
 
 ---
