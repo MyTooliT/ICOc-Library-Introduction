@@ -82,7 +82,7 @@ Connected to sensor device “Test-STH”
 
 ---
 
-# 💻 Read Data
+# 💻 Read Acceleration (Streaming) Data
 
 ```py
 """Read some acceleration data of STH with device name Test-STH"""
@@ -110,7 +110,7 @@ if __name__ == "__main__":
 
 ---
 
-# 💻 Read Data Output (Formatted)
+# 💻 Read Acceleration Data Output (Formatted)
 
 ```
 Read data values: [32545@1699449268.487127 (65),
