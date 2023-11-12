@@ -135,7 +135,7 @@ Read data values: [32524@1699449268.488246 (69),
 # 💻 Other Code References
 
 - No (HTML) library documentation 😢 (Sorry)
-- Check **docstrings of [`Network` class`](https://github.com/MyTooliT/ICOc/blob/master/mytoolit/can/network.py)**
+- Check **docstrings of [`Network` class](https://github.com/MyTooliT/ICOc/blob/master/mytoolit/can/network.py)**
 - Check [source code of `icon`](https://github.com/MyTooliT/ICOc/blob/master/mytoolit/cmdline/icon.py)
 
 ![bg right:40% fit](Pictures/Docstring.png)
