@@ -12,7 +12,7 @@ section::after {
 
 # ICOc Library Introduction
 
-![bg opacity:.3](Pictures/ICOtronic-System.jpg)
+![bg opacity:.2](Pictures/ICOtronic-System.jpg)
 
 ---
 
