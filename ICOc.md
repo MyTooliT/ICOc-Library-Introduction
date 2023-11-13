@@ -10,7 +10,7 @@ section::after {
 }
 </style>
 
-# ICOc (Library) Intro
+# ICOc Library Introduction
 
 ![bg opacity:.3](Pictures/ICOtronic-System.jpg)
 
