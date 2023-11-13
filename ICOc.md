@@ -1,3 +1,15 @@
+<!--
+theme: default
+paginate: true
+_paginate: false
+-->
+
+<style>
+section::after {
+  content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
+}
+</style>
+
 # ICOc (Library) Intro
 
 ![bg opacity:.3](Pictures/ICOtronic-System.jpg)
